@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../project-surveyform-0.0/css/style.css">
+  </head>
+  <body class="font">
+    <header class="heading">
+      <h1 id="title">Website survey form</h1>
+      <p id="description">We appriciate your time to responce, it helps to improve us.</p>
+    </header>
+    
+      <form id="survey-form">
+        <div class="form">
+          <label id="name-label" >Name <input id="name" type="text" placeholder="Enter your name" required ></label></div>
+          <div class="form">
+            <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required></label>
+            </div>
+            <div class="form">
+              <label id="number-label">Rate website on scale of 0 to 9: <input id="number" type="number" placeholder="Typing.." min="0" max="9" required></label></div>
+
+              <div class="form">
+                <p>What do you like about our website?</p>
+                <select id="dropdown">
+                  <option value="Design">Design</option>
+                  <option value="Content">Content</option>
+                  <option value="Interface">Interface</option>
+                  <option value="Other">Other</option></select></div>
+
+
+                  <div class="form">
+                    <p>Does our website need improvement?</p>
+                    <label><input type="radio" name="user" value="Yes" checked>Yes</label>
+                      <label><input name="user" type="radio" value="No">No</label>
+                    </div>
+
+
+                    <div class="form">
+                      <p>Which of the feature we should improve?</p>
+                      <label><input type="checkbox" value="Simplify the navigation">Simplify the navigation</label>
+                      <br>
+                      <label><input type="checkbox" value="Make the website mobile-friendly">Make the website mobile-friendly</label>
+                      <br>
+                      <label><input type="checkbox" value="Simplify the navigation">Simplify the navigation</label>
+                      <br>
+                      <label><input type="checkbox" value="Other">Other</label>
+                    </div>
+
+                    <div class="form">
+                      <p>If Any other suggestions</p>
+                      <textarea id="comments" placeholder="Enter your suggestion here"></textarea>
+                    </div>
+                    <div>
+                    <button id="submit" type="Submit" class="button" >Submit</button>
+                    </div>
+      </form>
+    
+  </body>
+</html>
